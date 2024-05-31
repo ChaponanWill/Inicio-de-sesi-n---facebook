@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Facebook - Entrar o registrarse">
+	<div class="container mt-10 md:mt-32 flex flex-col gap-10 md:gap-2 md:flex-row w-full mx-auto ">
+        <div class="left w-full text-center md:text-start md:w-[60%] flex flex-col items-center justify-center md:items-start md:justify-start my-auto">
+            <img class="w-80" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
+            <p class="text-3xl mx-8">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+        </div>
+        <div class="w-[80%] sm:w-[60%] mx-auto md:mx-0 md:w-[40%] right flex flex-col bg-white p-4 items-center justify-center rounded-lg text-md relative">
+            <input class="w-full outline-blue-600 px-4 border border-1 rounded-lg border-gray-200 py-4 h-12 my-2 " type="text" placeholder="correo electrónico o número de teléfono" autofocus >
+            <input class="w-full outline-blue-600 px-4 border border-1 rounded-lg border-gray-200 py-4 h-12 my-2 " py-4 type="password" placeholder="contraseña">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white w-full my-2 py-3 rounded-md font-bold ">Iniciar sesión</button>
+            <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">¿Has olvidado la contraseña?</span>
+            <hr class="my-2">
+            <button class="bg-green-600 hover:bg-green-700 text-white w-fit my-2 py-3 px-4 rounded-md font-bold">Crear cuenta nueva</button>
+            <p class="-bottom-12 absolute text-sm "> <span class="font-bold hover:underline cursor-pointer">Crea una página</span> para un famoso, una marca o una empresa.</p>
+        </div>
+        
+    </div>
+</Layout>
