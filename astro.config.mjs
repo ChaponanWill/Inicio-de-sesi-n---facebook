@@ -6,5 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site:'https://chaponanwill.github.io',
-  base:'Inicio-de-sesion-facebook'
+  base:'facebook'
 });
